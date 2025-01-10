@@ -1,0 +1,70 @@
+.cabeçalho{
+    height: 55px;
+    padding: 01px;
+    background-color: rgba(50, 47, 47, 1);
+}
+
+body{
+    margin: 0%;
+
+}
+
+.boas-vindas{
+    display:flex;
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large; 
+    margin-left: 1%;
+
+    
+}
+
+.botões{
+    margin:auto;
+    margin-top:1%;
+    margin-left: 20%;
+    display:inline-flex;
+ 
+}
+
+.sobre_mim{
+width: 150px;
+height: 70px;
+border-radius: 48%;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: large;
+border-color:rgba(0, 0, 0, 0);
+margin-bottom: 110px;
+
+}
+
+.habilidades{
+    width: 150px;
+    height: 70px;
+    border-radius: 48%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    border-color:rgba(0, 0, 0, 0);
+}
+
+.projetos{
+    width: 150px;
+    height: 70px;
+    border-radius: 48%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    border-color:rgba(0, 0, 0, 0);
+    margin-top: 50px;
+    display: flex;
+}
+
+.contato{
+    width: 150px;
+    height: 70px;
+    border-radius: 48%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    border-color:rgba(0, 0, 0, 0);
+    margin-top: 120px;
+    margin-right: 25%;
+}
+
