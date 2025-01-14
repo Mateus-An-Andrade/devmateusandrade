@@ -44,6 +44,9 @@ body{
     
 }
 
+.apresentacao{
+    animation: surgir_esquerda 4s ease-out
+}
 
 .botões{
     margin:auto;
@@ -157,7 +160,8 @@ body{
     width: 101px;
     position: absolute;
     margin-left: 77%;
-    animation: surgir_direita 1s ease-in;  
+    animation: surgir_direita 1s ease-in;
+    display: none;
 }
 
 .html_icone{
@@ -167,6 +171,7 @@ body{
     margin-left: 87%;
     margin-top: 8%;
     animation: surgir_direita 1s ease-in;  
+    display: none;
 }
 
 .css_icone{
@@ -176,6 +181,7 @@ body{
     margin-left: 84%;
     margin-top: 16%;
     animation: surgir_direita 1s ease-in;  
+    display: none;
 }
 
 .js_icone{
@@ -185,6 +191,7 @@ body{
     margin-left: 87%;
     margin-top: 21%;
     animation: surgir_direita 1s ease-in;  
+    display: none;
 }
 
 .py_icone{
@@ -194,6 +201,7 @@ body{
     margin-left: 67%;
     margin-top: 8%;
     animation: surgir_direita 1s ease-in;  
+    display: none;
 }
 
 .mysql_icone{
@@ -203,6 +211,7 @@ body{
     margin-left: 73%;
     margin-top: 16%;
     animation: surgir_direita 1s ease-in;  
+    display: none;
 }
 
 
