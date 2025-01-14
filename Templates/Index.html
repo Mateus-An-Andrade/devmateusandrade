@@ -23,8 +23,8 @@
         <div class="botões">
             <input type="button" class="sobre_mim" id="about_me_button"  value="sobre mim">
             <input type="button" class="habilidades" id="skills_button" value="habilidades">
-            <input type="button" class="projetos" id="projects" value="projetos">
-            <input type="button" class="contato"  id="contact" value="contato">
+            <input type="button" class="projetos" id="projects_button" value="projetos">
+            <input type="button" class="contato"  id="contact_button" value="contato">
         </div>
     </section>
 
@@ -47,10 +47,9 @@
             <p>
             algumas das minhas habilidades estão listadas ao lado,<br> clique no botão abaixo para que elas apareçam: 
             </p>
-        <input type="button" class="botão_acionador_habilidades" id="btn_skills">
+        <input type="button" class="botão_acionador_habilidades" id="btn_start_skills">
 
         <div class="icones_skills" id="icons_skills">
-            <img src="/Static/Icones/algoritmo.png" alt="algoritmo" class="algoritmo_icone" id="icon_algorit">
             <img src="/Static/Icones/html5.png" alt="html" class="html_icone" id="html_icon">
             <img src="/Static/Icones/css3.png" alt="css" class="css_icone" id="css_icon">
             <img src="/Static/Icones/js.png" alt="JavaScrip" class="js_icone" id="js_icon">
@@ -60,11 +59,42 @@
 
     </h2>
 
+    <h2 class="projetos_textos" id="projects">
+        PROJETOS:
+        <p>
+            EM CONSTRUÇÃO:
+        </p>
+    </h2>
 
-    
+
+    <h2 class="formulario" id="contact">
+        Entre em contato:
+        <form class="contato_formulario"  action="/submit-form" method="post">
+            <fieldset>
+                <label for="space_name"> Nome e Sobrenome: </label> 
+                <br>
+                <input type="text" required placeholder="João Soares" name="campo_nome_sobrenome" id="space_name">
+                <br>
+                <label for="space_tel"> Telefone/WhatsApp: </label>
+                <br>
+                <input type="tel" required placeholder=" (12) 91234-5678" name="campo_telefone" id="space_tel">
+                <br>
+                <label for="space_mail"> E-mail: </label>
+                <br>
+                <input type="email" required placeholder="contato@email.com" name="campo_email" id="space_mail">
+                <br>
+                <label for="space_talk"> Assunto: </label>
+                <br>
+                <input type="text" required placeholder="Gostaria de..." name="campo_assunto" id="space_talk">
+                <br>
+                <button type="submit"> Enviar! </button>
+            </fieldset>
+        </form>
+    </h2>
+
     <footer class="rodape">
         <p class="texto_rodape">
-            &#169; por Mateus Da A. Andrade
+            por Mateus Da A. Andrade
         </p>
     </footer>
 
