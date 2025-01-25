@@ -1,6 +1,7 @@
 body{
     background-color: rgba(16, 23, 25, 1);
     margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
 }
 
 /* ===>bloco de animações: inicio<===*/
@@ -73,7 +74,7 @@ body{
     margin-top: 40px;
     text-align: center;
     color: #fff;
-    animation:typing;
+
         .boas_vindas{
             font-size: 38px;
         }
@@ -87,6 +88,7 @@ body{
         }
 }
 /* ===>bloco de estilização do cabeçalho e parte superior do código: fim <===*/
+
 
 
 /* ===>bloco de estilização da seção "sobre mim": inicio <===*/
@@ -123,6 +125,8 @@ body{
 }
 /* ===>bloco de estilização da seção "sobre mim": fim <===*/
 
+
+
 /* ===>bloco de estilização da seção "Projetos": inicio <===*/
 
 .secao_projetos{
@@ -135,10 +139,268 @@ body{
     }
 
     .apresentacao_dos_projetos{
-        padding-left: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
         font-size: 35px;
         margin-top: 25px
     }
 }
 
 /* ===>bloco de estilização da seção "Projetos": fim <===*/
+
+
+
+/* ===>bloco de estilização da seção "Habilidades": inicio <===*/
+
+.secao_habilidades{
+    margin-top: 90px;
+    color: #fff;
+    margin-left: 170px;
+    margin-right: 170px;
+
+        .titulo_habilidades{
+            font-size: 38px;
+            text-align: center;
+        }
+
+        .icones_de_habilidades_front-end{
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .habilidade_em_html{
+            display: flex;
+            align-items: center;
+        
+            .icone_HTML{
+                width: 120px;
+                height: 115px;
+                background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+            }
+            .barra_carregamento_html{
+                display: flex;
+                flex-direction: column;
+                height:10px;
+                width:100%;
+                background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)45%,0%, rgba(255, 255, 255,1)) ;
+                border-radius: 15px;
+                margin-left: 20px;
+                float: inline-start;
+                overflow: hidden;
+            }
+
+        }
+
+        .habilidade_em_css{
+            display: flex;
+            align-items: center;
+
+            .icone_css{
+                background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+                width: 120px;
+                height: 115px;
+            }
+
+            .barra_carregamento_css{
+                display: flex;
+                flex-direction: column;
+                height:10px;
+                width:100%;
+                background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)20%,0%, rgba(255, 255, 255,1)) ;
+                border-radius: 15px;
+                margin-left: 20px;
+                float: inline-start;
+                overflow: hidden;
+            }
+    
+
+        }
+
+        .habilidade_em_js{
+            display: flex;
+            align-items: center;
+
+            .icone_js{
+                background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+                width: 120px;
+                height: 115px;
+            }
+
+            .barra_carregamento_js{
+                display: flex;
+                flex-direction: column;
+                height:10px;
+                width:100%;
+                background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)10%,0%, rgba(255, 255, 255,1)) ;
+                border-radius: 15px;
+                margin-left: 20px;
+                float: inline-start;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .icones_de_habilidades_back-end{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+        .habilidade_em_python{
+            display: flex;
+            align-items: center;
+
+                .icone_python{
+                    width: 120px;
+                    height: 115px;
+                    background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+                }
+
+                .barra_carregamento_python{
+                    display: flex;
+                        flex-direction: column;
+                        height:10px;
+                        width:100%;
+                        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)50%,0%, rgba(255, 255, 255,1)) ;
+                        border-radius: 15px;
+                        margin-left: 20px;
+                        float: inline-start;
+                        overflow: hidden;
+                }
+
+            }
+        
+        .habilidade_em_mysql{    
+            display: flex;
+            align-items: center;
+                .icone_mysql{
+                    width: 120px;
+                    height: 115px;
+                    background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+                }
+
+                .barra_carregamento_mysql{
+                    display: flex;
+                    flex-direction: column;
+                    height:10px;
+                    width:100%;
+                    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)30%,0%, rgba(255, 255, 255,1)) ;
+                    border-radius: 15px;
+                    margin-left: 20px;
+                    float: inline-start;
+                    overflow: hidden;
+                }
+            }
+/* ===>bloco de estilização da seção "Habilidades": fim <===*/
+
+
+/* ===>bloco de estilização da seção "contato": inicio <===*/
+
+.pedido_de_mensagem{
+    font-size: 36px;
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right:70px;
+    text-align: center;
+    color: #fff;
+}
+
+.form_contato{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right:70px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 800px;
+    background-color: rgba(3, 22, 38, 1);
+    font-size: 24px;
+    color: #fff;
+
+    .campos_de_entrada{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+
+    .nome{
+        width: 670px;
+        height: 55px;
+        border-radius: 5px;
+    }
+
+    .num_whats{
+        width: 670px;
+        height: 55px;
+        border-radius: 5px;
+    }
+
+    .email_contato{
+        width: 670px;
+        height: 55px;
+        border-radius: 5px;
+    }
+
+    .assunto{
+        width: 670px;
+        height: 200px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .enviar_formulario{
+        width: 638px;
+        height: 40px;
+        background-color:rgba(243, 70, 22, 1) ;
+        border: 0px;
+        border-radius: 5px;
+        margin-left: 20px;
+        color: #fff;
+    }
+
+}
+/* ===>bloco de estilização da seção "contato": fim <===*/
+
+
+/* ===>bloco de estilização da seção "links":inicio <===*/
+
+.links{
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    flex-direction: column;
+
+    .titulo_link{
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .link1{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .link2{
+        color: #fff;
+        font-size: 20px;
+    }
+}
+
+/* ===>bloco de estilização da seção "links": fim <===*/
+
+/* ===>bloco de estilização da seção "rodape": inicio <===*/
+
+.rodape{
+    margin-top: 90px;
+    color:#fff;
+    margin-left: 640px;
+    margin-bottom: 10px;
+
+}
+
+/* ===>bloco de estilização da seção "rodape": fim <===*/
