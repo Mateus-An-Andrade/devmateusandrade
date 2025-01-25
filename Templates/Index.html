@@ -9,95 +9,67 @@
 
 <body>
     
-    <header class="cabeçalho">
-        
+    <section class="cabecalho">
 
-    </header>
-
-  <section class="boas-vindas" id="welcome">  
-
-        <h1 class="apresentacao">Muito Prazer em conhecê-lo
-            <br> Eu me chamo: <br>  
-            Mateus da Anunciação Andrade
-        </h1>
-        <div class="botões">
-            <input type="button" class="sobre_mim" id="about_me_button"  value="sobre mim">
-            <input type="button" class="habilidades" id="skills_button" value="habilidades">
-            <input type="button" class="projetos" id="projects_button" value="projetos">
-            <input type="button" class="contato"  id="contact_button" value="contato">
+        <div class="botoes_portifolio">
+            <input type="button" value="sobre mim" class="botao_sobre_mim">
+            <input type="button" value="projetos" class="botao_meus_projetos">
+            <input type="button" value="habilidades" class="botao_habilidades">
+            <input type="button" value="contato" class="botao_contato">
         </div>
+
     </section>
 
-    <h1 class="sobre-mim-texto"  id="about_me">
-        Sobre mim:
-        <img src="/Static\20240307_100212-removebg-preview.png" alt="Mateus Da Anunciação Andrade" class="imagem_pessoal">
-            <p>
-                Olá eu sou Mateus tenho 23 anos e sou um grande adepto da tecnologia, disposto a melhorar cada vez mais o processo da vida através dos mais modernos métodos tecnológicos.
-                <br>
-                <br>
-                Desde a adolescência, já com certa aptidão e familiaridade com computadores e tecnologia, aprendendo e desenvolvendo rápido aquilo que me propunha a fazer.
-                <br>
-                <br>
-                Atualmente, estou me dedicando a estudar e a aprender a linguagem de programação python e tecnologias front-end com planos de ser um desenvolvedor Full Stack.
+
+
+    
+    <section class="identificacao">
+
+            <h1 class="boas_vindas">
+                Bem-Vindo! Eu sou:
+            </h1>
+
+            <p class="meu_nome">
+                Mateus da Anunciação Andrade
             </p>
-    </h1>
 
-    <h2 class="habilidades_texto" id="skills">
-        Habilidades:
-            <p>
-            algumas das minhas habilidades estão listadas ao lado,<br> clique no botão abaixo para que elas apareçam: 
+            <p class="meu_trabalho">
+                desenvolvedor web
             </p>
-        <input type="button" class="botão_acionador_habilidades" id="btn_start_skills">
+    </section>
 
-        <div class="icones_skills" id="icons_skills">
-            <img src="/Static/Icones/html5.png" alt="html" class="html_icone" id="html_icon">
-            <img src="/Static/Icones/css3.png" alt="css" class="css_icone" id="css_icon">
-            <img src="/Static/Icones/js.png" alt="JavaScrip" class="js_icone" id="js_icon">
-            <img src="/Static/Icones/python.png" alt="python" class="py_icone" id="py_icon">
-            <img src="/Static/Icones/mysql.png" alt="mysql" class="mysql_icone" id="mysql_icon">
-        </div>
 
-    </h2>
+    <section class="sobre_mim">
 
-    <h2 class="projetos_textos" id="projects">
-        PROJETOS:
-        <p>
-            EM CONSTRUÇÃO:
+        <h1 class="titulo_sobre_mim">
+            Quem eu sou?
+        </h1>
+
+        <p class="texto_sobre_mim">
+            
+            <img class="minha_imagem" src="/Static\20240307_100212-removebg-preview.png" alt="minha foto pessoal">
+
+            Muito prazer! Eu sou Mateus tenho 23 anos e sou um grande adepto da tecnologia, disposto a melhorar cada vez mais o processo da vida através dos mais modernos métodos tecnológicos.
+            
+            Desde a adolescência, já com certa aptidão e familiaridade com computadores e tecnologia, aprendendo e desenvolvendo rápido aquilo que me propunha a fazer.
+            
+            Atualmente, estou me dedicando a estudar e a aprender a linguagem de programação <span class="palavras_importantes">python</span> e tecnologias <span class="palavras_importantes">front-end</span> com planos de ser um <span class="palavras_importantes">desenvolvedor Full Stack.</span>
         </p>
-    </h2>
 
 
-    <h2 class="formulario" id="contact">
-        Entre em contato:
-        <form class="contato_formulario"  action="/submit-form" method="post">
-            <fieldset>
-                <label for="space_name"> Nome e Sobrenome: </label> 
-                <br>
-                <input type="text" required placeholder="João Soares" name="campo_nome_sobrenome" id="space_name">
-                <br>
-                <label for="space_tel"> Telefone/WhatsApp: </label>
-                <br>
-                <input type="tel" required placeholder=" (12) 91234-5678" name="campo_telefone" id="space_tel">
-                <br>
-                <label for="space_mail"> E-mail: </label>
-                <br>
-                <input type="email" required placeholder="contato@email.com" name="campo_email" id="space_mail">
-                <br>
-                <label for="space_talk"> Assunto: </label>
-                <br>
-                <input type="text" required placeholder="Gostaria de..." name="campo_assunto" id="space_talk">
-                <br>
-                <button type="submit"> Enviar! </button>
-            </fieldset>
-        </form>
-    </h2>
+        <section class="secao_projetos">
+            <h2 class="titulo_projetos">
+                Projetos
+            </h2>
 
-    <footer class="rodape">
-        <p class="texto_rodape">
-            por Mateus Da A. Andrade
-        </p>
-    </footer>
+            <p class="apresentacao_dos_projetos">
+                EM BREVE!
+            </p>
+        </section>
+        
 
-    <script src="/Script/script.js"></script>
+    </section>
+
+
 </body>
 </html>
