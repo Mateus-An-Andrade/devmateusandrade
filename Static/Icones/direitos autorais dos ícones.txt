@@ -1,0 +1,24 @@
+Direitos autorais dos ícones usados no site
+
+->fonte: www.flaticon
+
+ícones:
+->html: https://www.flaticon.com/br/icones-gratis/html
+====> ícones criados por Freepik - Flaticon
+
+
+->css: <a href="https://www.flaticon.com/br/icones-gratis/html
+====> ícones criados por Freepik - Flaticon
+
+
+->js: https://www.flaticon.com/br/icones-gratis/javascript
+====> ícones criados por Freepik - Flaticon
+
+
+->python: https://www.flaticon.com/br/icones-gratis/pitao
+====> ícones criados por Freepik - Flaticon
+
+
+->mysql: https://www.flaticon.com/br/icones-gratis/mysql
+====> ícones criados por Freepik - Flaticon
+

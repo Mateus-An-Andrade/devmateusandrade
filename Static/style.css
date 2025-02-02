@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgba(16, 23, 25, 1);
     margin: 0px;
@@ -58,7 +62,6 @@ body{
     width:auto;
     padding: 1.2em;
     background-color: rgba(243, 70, 22, 1);
-    scroll-behavior: smooth;
 }
 
 .botao_sobre_mim{
@@ -69,6 +72,18 @@ body{
     font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
+    transition: all 0.3s ease;
+}
+
+.botao_sobre_mim:hover{
+    width: 10em;
+    height: 3em;
+    margin: 0.2rem;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    color: rgba(243, 70, 22, 1);
+    text-decoration-line:underline;
+     
 }
 
 .botao_meus_projetos{
@@ -79,6 +94,18 @@ body{
     font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
+    transition: all 0.3s ease;
+}
+
+.botao_meus_projetos:hover{
+    width: 10em;
+    height: 3em;
+    margin: 0.2rem;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    color: rgba(243, 70, 22, 1);
+    text-decoration-line:underline;
+     
 }
 
 .botao_habilidades{
@@ -89,6 +116,18 @@ body{
     font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
+    transition: all 0.3s ease;
+}
+
+.botao_habilidades:hover{
+    width: 10em;
+    height: 3em;
+    margin: 0.2rem;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    color: rgba(243, 70, 22, 1);
+    text-decoration-line:underline;
+     
 }
 
 .botao_contato{
@@ -99,8 +138,19 @@ body{
     font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
+    transition: all 0.3s ease;
 }
 
+.botao_contato:hover{
+    width: 10em;
+    height: 3em;
+    margin: 0.2rem;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    color: rgba(243, 70, 22, 1);
+    text-decoration-line:underline;
+     
+}
 
 .identificacao{
     margin-top: 1.2em;
@@ -502,12 +552,22 @@ align-items: center;
 /* ===>bloco de estilização da seção "rodape": inicio <===*/
 
 .rodape{
+    background-image: linear-gradient(rgba(16, 23, 25, 1),rgba(243, 70, 22, 1));
     margin-top: 5em;
     color:#fff;
-    margin-left: 44%;
-    margin-bottom: 14px;
-
+    text-align: center;
+    align-content: end;
+    height: 15em;
 }
+footer{
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.creditos{
+    color: #fff;
+}
+
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
@@ -518,7 +578,7 @@ align-items: center;
 /*==================================================================*/
 /*==================================================================*/
 /* ===>bloco de mobile: inicio <===*/
-@media (min-width:360px) and (max-width:956px) and (min-height: 640px){ 
+@media (min-width:300px) and (min-height: 640px) and (max-width:956px){ 
 
     body{
         background-color: rgba(16, 23, 25, 1);
@@ -531,11 +591,12 @@ align-items: center;
     }
 /*==================================================================*/
 /*==================================================================*/
+/* ===>bloco mobile botões do portifolio: inicio <===*/
     
     .botoes_portifolio{
         display: flex;
         justify-content: center;
-        height: 3em;
+        height: 2.4em;
         align-content: center;
         gap: 0.4em;
         width:auto;
@@ -545,48 +606,99 @@ align-items: center;
     }
 
     .botao_sobre_mim{
-        width: 6em;
-        height: 2.3em;
+        width: 5.5em;
+        height: 2.2em;
         color: #fff;
         background-color: rgba(3, 22, 38, 1);
-        font-size: 1em;
+        font-size: 0.9em;
         border: 0px;
         border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
+    .botao_sobre_mim:hover{
+        width: 5.6em;
+        height: 2.3em;
+        margin: 0.1rem;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        color: rgba(243, 70, 22, 1);
+        text-decoration-line:underline;
+         
     }
     
     .botao_meus_projetos{
         width: 5em;
-        height: 2.3em;
+        height: 2.2em;
         color: #fff;
         background-color: rgba(3, 22, 38, 1);
-        font-size: 1em;
+        font-size: 0.9em;
         border: 0px;
         border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
+    .botao_meus_projetos:hover{
+        width: 5.6em;
+        height: 2.3em;
+        margin: 0.1rem;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        color: rgba(243, 70, 22, 1);
+        text-decoration-line:underline;
+         
     }
     
     .botao_habilidades{
-        width: 6em;
-        height: 2.3em;
+        width: 5.5em;
+        height: 2.2em;
         color: #fff;
         background-color: rgba(3, 22, 38, 1);
-        font-size: 1em;
+        font-size: 0.9em;
         border: 0px;
         border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
+    .botao_habilidades:hover{
+        width: 5.6em;
+        height: 2.3em;
+        margin: 0.1rem;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        color: rgba(243, 70, 22, 1);
+        text-decoration-line:underline;
+         
     }
     
     .botao_contato{
         width: 5em;
-        height: 2.3em;
+        height: 2.2em;
         color: #fff;
         background-color: rgba(3, 22, 38, 1);
-        font-size: 1em;
+        font-size: 0.9em;
         border: 0px;
         border-radius: 0.5em;
+        padding: 0.2em;
     }
+
+    .botao_contato:hover{
+        width: 5.6em;
+        height: 2.3em;
+        margin: 0.1rem;
+        font-size: 1.2em;
+        background-color: #ffffff;
+        color: rgba(243, 70, 22, 1);
+        text-decoration-line:underline;
+         
+    }
+    /* ===>bloco mobile botões do portifolio: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
 
 /*==================================================================*/
 /*==================================================================*/
-    
+/* ===>bloco mobile identificação: inicio <===*/
     .identificacao{
         margin-top: 1.2em;
         text-align: center;
@@ -594,7 +706,7 @@ align-items: center;
     }
     
     .boas_vindas{
-        font-size: 2.4em;
+        font-size: 2.2em;
     }
             
     .meu_nome{
@@ -605,20 +717,17 @@ align-items: center;
     .meu_trabalho{
         font-size: 1.6em;
     }
+/* ===>bloco mobile identificação: fim <===*/
 /*==================================================================*/
 /*==================================================================*/
-    .minha_imagem{
-        width: 12em;
-        height: 15em;
-        margin-left: 3em;
-        float: inline-end;
-        border-radius: 2em;
-        animation:surgir_direita 3s;
-        display: none;
-    }
-  /*  .sobre_mim{
+
+
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile sobre mim: inicio <===*/
+    .sobre_mim{
         color: #fff;
-        margin-left: 1em;
+        margin-left: 1.2em;
         margin-right: 1.5em;
         margin-top: 5em;
         
@@ -626,13 +735,13 @@ align-items: center;
     
     .titulo_sobre_mim{
         text-align: justify;
-        font-size: 2.7rem;
+        font-size: 2rem;
     }
     
     .texto_sobre_mim{
         padding-left: 1.5em;
-        text-align: center;
-        font-size: 2em;
+        text-align:justify;
+        font-size: 1.3em;
         overflow: auto;
         animation: surgir_esquerda 2s;
     }
@@ -640,5 +749,357 @@ align-items: center;
     .palavras_importantes{
         color:rgba(243, 70, 22, 1) ;
     }
-    */
+
+    .minha_imagem{
+        width: 7em;
+        height: 8.5em;
+        border-radius: 1em;
+        animation:surgir_direita 3s;
+        display:grid;
+        margin-left: 0.4em;
+        margin-top: 0.8em;
+    }
+/* ===>bloco mobile sobre mim: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile projetos: inicio <===*/
+
+    .secao_projetos{
+        margin-top: 5em;
+        color: #fff;
+    }
+
+    .titulo_projetos{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .apresentacao_dos_projetos{
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 1.3em;
+        margin-top: 2rem;
+        text-align: center;
+    }
+/* ===>bloco mobile projetos: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+
+
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile habilidades: inicio <===*/
+
+    .secao_habilidades{
+        margin-top: 5em;
+        color: #fff;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .titulo_habilidades{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .icones_de_habilidades_front-end{
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .habilidade_em_html{
+        display: flex;
+        align-items: center;
+    }
+
+    .icone_HTML{
+        width: 5em;
+        height: 4em;
+        background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+        animation: surgir_esquerda 2s;
+    }
+
+    .barra_carregamento_html{
+        display: flex;
+        flex-direction: column;
+        height:10px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)45%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s;
+    }
+
+
+    .habilidade_em_css{
+        display: flex;
+        align-items: center;
+    }
+
+    .icone_css{
+        background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+        width: 5em;
+        height: 4em;
+        animation: surgir_esquerda 2s;
+    }
+
+    .barra_carregamento_css{
+        display: flex;
+        flex-direction: column;
+        height:10px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)20%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s;
+    }
+
+    .habilidade_em_js{
+        display: flex;
+        align-items: center;
+    }
+
+    .icone_js{
+        background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+        width: 5em;
+        height: 4em;
+        animation: surgir_esquerda 2s;
+    }
+
+
+    .barra_carregamento_js{
+        display: flex;
+        flex-direction: column;
+        height:10px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)10%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s;
+    }
+
+    .icones_de_habilidades_back-end{
+        margin-top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .habilidade_em_python{
+        display: flex;
+        align-items: center;
+    }
+
+    .icone_python{
+        width: 5em;
+        height: 4em;
+        background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+        animation: surgir_esquerda 2s;
+    }
+
+    .barra_carregamento_python{
+        display: flex;
+        flex-direction: column;
+        height:10px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)50%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s;
+    }
+            
+    .habilidade_em_mysql{    
+        display: flex;
+        align-items: center;
+    }
+
+    .icone_mysql{
+        width: 5em;
+        height: 4em;
+        background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
+        animation: surgir_esquerda 2s;
+    }
+
+    .barra_carregamento_mysql{
+        display: flex;
+        flex-direction: column;
+        height:10px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)30%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s;
+    }
+
+
+/* ===>bloco mobile habilidades: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+
+
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile contato: inicio <===*/
+
+    .pedido_de_mensagem{
+        font-size: 2rem;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        margin-top: 2em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .form_contato{
+        margin-top: 2em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 31em;
+        background-color: #031626;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .campos_de_entrada{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+
+    .nome{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .num_whats{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .email_contato{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .assunto{
+        width: 20em;
+        height: 9em;
+        border-radius: 0.5em;
+        overflow: hidden;
+    }
+
+    .enviar_formulario{
+        width: 5em;
+        height: 2em;
+        background-color:rgba(243, 70, 22, 1) ;
+        border: 0px;
+        border-radius: 5px;
+        margin-left: 40%;
+        color: #fff;
+    }
+
+/* ===>bloco mobile contato: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+
+
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile "links": inicio <===*/
+
+    .whatsapp{
+        margin-top: 5em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .titulo_link{
+        font-size: 2rem;
+        color: #fff;
+    }
+
+
+    .link_whats{
+        color: #fff;
+        font-size: 1.2em;
+        background-color: rgba(243, 70, 22, 1);
+        width: 8em;
+        height: 2.5em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 0.5em;
+        text-decoration-line: none;
+    }
+    .redes_sociais{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo_link{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    
+    .link1{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    
+    .link2{
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+/* ===>bloco mobile "links": fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+    
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco de estilização da seção "rodape": inicio <===*/
+    
+    .rodape{
+        margin-top: 5em;
+        color:#fff;
+        text-align: center;
+    }    
+/* ===>bloco mobile "rodape": fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+    
 }
