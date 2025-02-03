@@ -76,9 +76,9 @@ body{
 }
 
 .botao_sobre_mim:hover{
-    width: 10em;
-    height: 3em;
-    margin: 0.2rem;
+    width: 8.2em;
+    height: 2.5em;
+    margin: 0.1rem;
     font-size: 1.5em;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
@@ -98,9 +98,9 @@ body{
 }
 
 .botao_meus_projetos:hover{
-    width: 10em;
-    height: 3em;
-    margin: 0.2rem;
+    width: 8.2em;
+    height: 2.5em;
+    margin: 0.1rem;
     font-size: 1.5em;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
@@ -120,9 +120,9 @@ body{
 }
 
 .botao_habilidades:hover{
-    width: 10em;
-    height: 3em;
-    margin: 0.2rem;
+    width: 8.2em;
+    height: 2.5em;
+    margin: 0.1rem;
     font-size: 1.5em;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
@@ -142,9 +142,9 @@ body{
 }
 
 .botao_contato:hover{
-    width: 10em;
-    height: 3em;
-    margin: 0.2rem;
+    width: 8.2em;
+    height: 2.5em;
+    margin: 0.1rem;
     font-size: 1.5em;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
@@ -159,7 +159,7 @@ body{
 }
 
 .boas_vindas{
-    font-size: 2.7em;
+    font-size: 2em;
 }
         
 .meu_nome{
@@ -167,7 +167,7 @@ body{
 }
         
 .meu_trabalho{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 /*==================================================================*/
 /*==================================================================*/
@@ -189,13 +189,13 @@ body{
 
 .titulo_sobre_mim{
     text-align: justify;
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 
 .texto_sobre_mim{
     padding-left: 1.6em;
     text-align: justify;
-    font-size: 2em;
+    font-size: 1.5em;
     overflow: auto;
     animation: surgir_esquerda 2s;
 }
@@ -230,14 +230,14 @@ body{
 }
 
 .titulo_projetos{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .apresentacao_dos_projetos{
     margin-left: 4.5em;
     margin-right: 4.5em;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 
@@ -260,7 +260,7 @@ body{
 }
 
 .titulo_habilidades{
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -415,7 +415,7 @@ align-items: center;
 /* ===>bloco de estilização da seção "contato": inicio <===*/
 
 .pedido_de_mensagem{
-    font-size: 36px;
+    font-size: 2rem;
     margin-left: 4.5em;
     margin-right: 4.5em;
     margin-top: 5em;
@@ -432,9 +432,9 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     width: auto;
-    height: 31em;
+    height: 44em;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: #fff;
 }
 
@@ -499,14 +499,14 @@ align-items: center;
 
 
 .titulo_link{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
 }
 
 
 .link_whats{
     color: #fff;
-    font-size: 20px;
+    font-size: 1rem;
     background-color: rgba(243, 70, 22, 1);
     width: 8em;
     height: 2.5em;
@@ -616,16 +616,6 @@ footer{
         padding: 0.2em;
     }
 
-    .botao_sobre_mim:hover{
-        width: 5.6em;
-        height: 2.3em;
-        margin: 0.1rem;
-        font-size: 1.2em;
-        background-color: #ffffff;
-        color: rgba(243, 70, 22, 1);
-        text-decoration-line:underline;
-         
-    }
     
     .botao_meus_projetos{
         width: 5em;
@@ -638,16 +628,6 @@ footer{
         padding: 0.2em;
     }
 
-    .botao_meus_projetos:hover{
-        width: 5.6em;
-        height: 2.3em;
-        margin: 0.1rem;
-        font-size: 1.2em;
-        background-color: #ffffff;
-        color: rgba(243, 70, 22, 1);
-        text-decoration-line:underline;
-         
-    }
     
     .botao_habilidades{
         width: 5.5em;
@@ -660,16 +640,6 @@ footer{
         padding: 0.2em;
     }
 
-    .botao_habilidades:hover{
-        width: 5.6em;
-        height: 2.3em;
-        margin: 0.1rem;
-        font-size: 1.2em;
-        background-color: #ffffff;
-        color: rgba(243, 70, 22, 1);
-        text-decoration-line:underline;
-         
-    }
     
     .botao_contato{
         width: 5em;
@@ -682,16 +652,6 @@ footer{
         padding: 0.2em;
     }
 
-    .botao_contato:hover{
-        width: 5.6em;
-        height: 2.3em;
-        margin: 0.1rem;
-        font-size: 1.2em;
-        background-color: #ffffff;
-        color: rgba(243, 70, 22, 1);
-        text-decoration-line:underline;
-         
-    }
     /* ===>bloco mobile botões do portifolio: fim <===*/
 /*==================================================================*/
 /*==================================================================*/
@@ -706,16 +666,16 @@ footer{
     }
     
     .boas_vindas{
-        font-size: 2.2em;
+        font-size: 1.1em;
     }
             
     .meu_nome{
-        font-size: 3.5em;
+        font-size: 2em;
         padding: 2px;
     }
             
     .meu_trabalho{
-        font-size: 1.6em;
+        font-size: 1.1em;
     }
 /* ===>bloco mobile identificação: fim <===*/
 /*==================================================================*/
@@ -735,13 +695,13 @@ footer{
     
     .titulo_sobre_mim{
         text-align: justify;
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
     
     .texto_sobre_mim{
         padding-left: 1.5em;
         text-align:justify;
-        font-size: 1.3em;
+        font-size: 1em;
         overflow: auto;
         animation: surgir_esquerda 2s;
     }
@@ -775,14 +735,14 @@ footer{
     }
 
     .titulo_projetos{
-        font-size: 2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 
     .apresentacao_dos_projetos{
         margin-left: 2em;
         margin-right: 2em;
-        font-size: 1.3em;
+        font-size: 1em;
         margin-top: 2rem;
         text-align: center;
     }
@@ -803,7 +763,7 @@ footer{
     }
 
     .titulo_habilidades{
-        font-size: 2rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 
@@ -820,8 +780,8 @@ footer{
     }
 
     .icone_HTML{
-        width: 5em;
-        height: 4em;
+        width: 4em;
+        height: 3em;
         background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
         animation: surgir_esquerda 2s;
     }
@@ -829,7 +789,7 @@ footer{
     .barra_carregamento_html{
         display: flex;
         flex-direction: column;
-        height:10px;
+        height:5px;
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)45%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
@@ -847,15 +807,15 @@ footer{
 
     .icone_css{
         background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-        width: 5em;
-        height: 4em;
+        width: 4em;
+        height: 3em;
         animation: surgir_esquerda 2s;
     }
 
     .barra_carregamento_css{
         display: flex;
         flex-direction: column;
-        height:10px;
+        height:5px;
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)20%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
@@ -872,8 +832,8 @@ footer{
 
     .icone_js{
         background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-        width: 5em;
-        height: 4em;
+        width: 4em;
+        height: 3em;
         animation: surgir_esquerda 2s;
     }
 
@@ -881,7 +841,7 @@ footer{
     .barra_carregamento_js{
         display: flex;
         flex-direction: column;
-        height:10px;
+        height:5px;
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)10%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
@@ -904,8 +864,8 @@ footer{
     }
 
     .icone_python{
-        width: 5em;
-        height: 4em;
+        width: 4em;
+        height: 3em;
         background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
         animation: surgir_esquerda 2s;
     }
@@ -913,7 +873,7 @@ footer{
     .barra_carregamento_python{
         display: flex;
         flex-direction: column;
-        height:10px;
+        height:5px;
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)50%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
@@ -929,8 +889,8 @@ footer{
     }
 
     .icone_mysql{
-        width: 5em;
-        height: 4em;
+        width: 4em;
+        height: 3em;
         background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
         animation: surgir_esquerda 2s;
     }
@@ -938,7 +898,7 @@ footer{
     .barra_carregamento_mysql{
         display: flex;
         flex-direction: column;
-        height:10px;
+        height:5px;
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)30%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
@@ -959,7 +919,7 @@ footer{
 /* ===>bloco mobile contato: inicio <===*/
 
     .pedido_de_mensagem{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-left: 1.5em;
         margin-right: 1.5em;
         margin-top: 2em;
@@ -976,9 +936,9 @@ footer{
         flex-direction: column;
         align-items: center;
         width: auto;
-        height: 31em;
+        height: 36em;
         background-color: #031626;
-        font-size: 1.2rem;
+        font-size: 0.9rem;
         color: #fff;
     }
 
@@ -1043,14 +1003,14 @@ footer{
 
 
     .titulo_link{
-        font-size: 2rem;
+        font-size: 0.5rem;
         color: #fff;
     }
 
 
     .link_whats{
         color: #fff;
-        font-size: 1.2em;
+        font-size: 0.9em;
         background-color: rgba(243, 70, 22, 1);
         width: 8em;
         height: 2.5em;
@@ -1070,19 +1030,19 @@ footer{
     }
     
     .titulo_link{
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #fff;
     }
     
     
     .link1{
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     
     .link2{
         color: #fff;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
 /* ===>bloco mobile "links": fim <===*/
@@ -1097,6 +1057,7 @@ footer{
         margin-top: 5em;
         color:#fff;
         text-align: center;
+        font-size: 0.7rem;
     }    
 /* ===>bloco mobile "rodape": fim <===*/
 /*==================================================================*/
