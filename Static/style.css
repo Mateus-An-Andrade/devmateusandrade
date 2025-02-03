@@ -277,8 +277,8 @@ body{
 }
 
 .icone_HTML{
-    width: 9em;
-    height: 8em;
+    width: 5em;
+    height: 4em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s;
 }
@@ -286,7 +286,7 @@ body{
 .barra_carregamento_html{
     display: flex;
     flex-direction: column;
-    height:10px;
+    height:6px;
     width:100%;
     background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)45%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
@@ -304,15 +304,15 @@ body{
 
 .icone_css{
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-    width: 9em;
-    height: 8em;
+    width: 5em;
+    height: 4em;
     animation: surgir_esquerda 2s;
 }
 
 .barra_carregamento_css{
     display: flex;
     flex-direction: column;
-    height:10px;
+    height:6px;
     width:100%;
     background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)20%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
@@ -329,8 +329,8 @@ body{
 
 .icone_js{
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-    width: 9em;
-    height: 8em;
+    width: 5em;
+    height: 4em;
     animation: surgir_esquerda 2s;
 }
 
@@ -338,7 +338,7 @@ body{
 .barra_carregamento_js{
     display: flex;
     flex-direction: column;
-    height:10px;
+    height:6px;
     width:100%;
     background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)10%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
@@ -361,8 +361,8 @@ align-items: center;
 }
 
 .icone_python{
-    width: 9em;
-    height: 8em;
+    width: 5em;
+    height: 4em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s;
 }
@@ -370,7 +370,7 @@ align-items: center;
 .barra_carregamento_python{
     display: flex;
     flex-direction: column;
-    height:10px;
+    height:6px;
     width:100%;
     background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)50%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
@@ -386,8 +386,8 @@ align-items: center;
 }
 
 .icone_mysql{
-    width: 9em;
-    height: 8em;
+    width: 5em;
+    height: 4em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s;
 }
@@ -395,7 +395,7 @@ align-items: center;
 .barra_carregamento_mysql{
     display: flex;
     flex-direction: column;
-    height:10px;
+    height:6px;
     width:100%;
     background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)30%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
@@ -1057,7 +1057,7 @@ footer{
         margin-top: 5em;
         color:#fff;
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 0.7rem   ;
     }    
 /* ===>bloco mobile "rodape": fim <===*/
 /*==================================================================*/
