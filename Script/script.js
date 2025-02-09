@@ -28,7 +28,5 @@ const observer = new IntersectionObserver((entries, observer) => {
   });
 }, { threshold: 0.5 });
 
-console.log('Observer acionado', entry);
-
 observer.observe(frontEnd);
 observer.observe(backEnd);
