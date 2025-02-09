@@ -12,6 +12,7 @@ const barrasBack = backEnd.querySelectorAll('.barra_carregamento_python, .barra_
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
+      console.log('Observer acionado');
       // Animações para o Front-End
       habilidadesFront.forEach(hab => hab.style.animation = 'surgir_esquerda 5s forwards');
       iconesFront.forEach(icon => icon.style.animation = 'surgir_esquerda 3s forwards');
