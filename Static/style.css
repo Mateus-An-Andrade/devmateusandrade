@@ -11,6 +11,18 @@ body{
 /*==================================================================*/
 /*==================================================================*/
 /* ===>bloco de animações: inicio<===*/
+@keyframes surgir_de_cima{
+    from{
+        opacity: 0;
+        transform: translateY(-4em);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes surgir_esquerda {
     from{
         opacity: 0;
@@ -37,6 +49,7 @@ body{
     }
     
 }
+
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
@@ -62,6 +75,7 @@ body{
     width:auto;
     padding: 1.2em;
     background-color: rgba(243, 70, 22, 1);
+    animation: surgir_de_cima 2s;
 }
 
 .botao_sobre_mim{
@@ -160,14 +174,17 @@ body{
 
 .boas_vindas{
     font-size: 2em;
+    animation: surgir_de_cima 2s linear 0s;
 }
         
 .meu_nome{
     font-size: 4em;
+    animation: surgir_de_cima 3s linear 0s
 }
         
 .meu_trabalho{
     font-size: 2em;
+    animation: surgir_de_cima 4s linear 0s;
 }
 /*==================================================================*/
 /*==================================================================*/
@@ -184,7 +201,7 @@ body{
     margin-left: 4.5em;
     margin-right: 4.5em;
     margin-top: 5em;
-    
+    animation: surgir_esquerda 2s;
 }  
 
 .titulo_sobre_mim{
@@ -274,13 +291,16 @@ body{
 .habilidade_em_html{
     display: flex;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 2s ease, transform 2s ease;
 }
 
 .icone_HTML{
     width: 5em;
     height: 4em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-    animation: surgir_esquerda 2s;
+    animation: surgir_esquerda 2s forwards;
 }
 
 .barra_carregamento_html{
@@ -293,13 +313,16 @@ body{
     margin-left: 20px;
     float: inline-start;
     overflow: hidden;
-    animation: surgir_direita 3s;
+    animation: surgir_direita 3s forwards;
 }
 
 
 .habilidade_em_css{
     display: flex;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 2s ease, transform 2s ease;
 }
 
 .icone_css{
@@ -325,6 +348,8 @@ body{
 .habilidade_em_js{
     display: flex;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
 .icone_js{
@@ -358,6 +383,8 @@ body{
 .habilidade_em_python{
 display: flex;
 align-items: center;
+opacity: 0;
+transform: translateX(-100%);
 }
 
 .icone_python{
@@ -383,6 +410,8 @@ align-items: center;
 .habilidade_em_mysql{    
     display: flex;
     align-items: center;
+    opacity: 0;
+    transform: translateX(-100%);
 }
 
 .icone_mysql{
@@ -616,6 +645,16 @@ footer{
         padding: 0.2em;
     }
 
+    .botao_sobre_mim:hover{
+        width: 5.5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+    }
     
     .botao_meus_projetos{
         width: 5em;
@@ -628,6 +667,17 @@ footer{
         padding: 0.2em;
     }
 
+
+    .botao_meus_projetos:hover{
+        width: 5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+    }
     
     .botao_habilidades{
         width: 5.5em;
@@ -640,6 +690,19 @@ footer{
         padding: 0.2em;
     }
 
+
+    .botao_habilidades:hover{
+        width: 5.5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
+
     
     .botao_contato{
         width: 5em;
@@ -651,6 +714,18 @@ footer{
         border-radius: 0.5em;
         padding: 0.2em;
     }
+
+    .botao_contato:hover{
+        width: 5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
 
     /* ===>bloco mobile botões do portifolio: fim <===*/
 /*==================================================================*/
