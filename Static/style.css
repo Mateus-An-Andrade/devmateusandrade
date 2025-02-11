@@ -452,6 +452,13 @@ transform: translateX(-100%);
     color: #fff;
 }
 
+h4{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.3rem; 
+}
+
 .form_contato{
     margin-top: 2em;
     margin-left: 4.5em;
