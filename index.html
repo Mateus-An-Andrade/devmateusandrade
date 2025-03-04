@@ -120,16 +120,15 @@
         <h2 class="pedido_de_mensagem" id="contact">
             Me envie uma mensagem:
             <br>
-            <h4>(funcionalidade em desenvolvimento)</h4>
         </h2>
 
         <section class="form_contato">
 
-            <form class="formulario_para_contato">
+            <form class="formulario_para_contato" method="POST" action="/api/submit.js">
 
                 <div class="campos_de_entrada">
 
-                    <label for="first_name"> Nome:</label>
+                    <label for="name"> Nome:</label>
                     <br>
                     <input type="text" name="name" id="name" placeholder="Roberto Almeida" class="nome">
                     
@@ -145,7 +144,7 @@
 
                     <label for="email"> Email:</label>
                     <br>
-                    <input type="mail" name="email" id="email" placeholder="roberto@email.com" class="email_contato">
+                    <input type="email" name="email" id="email" placeholder="roberto@email.com" class="email_contato">
 
                     <br>
 
