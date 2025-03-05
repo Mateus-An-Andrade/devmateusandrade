@@ -34,3 +34,24 @@ if (frontEnd && backEnd) {
 } else {
   console.log("Elementos não encontrados.");
 }
+
+
+//script, de solicitação do front-end para os dados do formulário
+document.querySelector('.formulario_para_contato').addEventListener("submit",async (e) =>{
+  e.preventDefault();
+
+  const FormData = new FormData(e.target);
+
+  const response = await fetch ('/api/handler', {
+    method: 'POST',
+    body: new URLSearchParams(FormData)
+  });
+
+  const data = await response.json();
+
+  if(data.message){
+    alert(data.message);
+
+  }
+
+});
