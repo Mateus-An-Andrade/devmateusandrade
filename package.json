@@ -1,0 +1,23 @@
+{
+  "name": "projeto-001--site-pessoal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateus-An-Andrade/devmateusandrade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateus-An-Andrade/devmateusandrade/issues"
+  },
+  "homepage": "https://github.com/Mateus-An-Andrade/devmateusandrade#readme",
+  "description": "",
+  "dependencies": {
+    "nodemailer": "^6.10.0"
+  }
+}
