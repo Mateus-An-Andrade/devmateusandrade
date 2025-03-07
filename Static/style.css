@@ -452,74 +452,6 @@ transform: translateX(-100%);
     color: #fff;
 }
 
-h4{
-    text-align: center;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 1.3rem; 
-}
-
-.form_contato{
-    margin-top: 2em;
-    margin-left: 4.5em;
-    margin-right: 4.5em;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    height: 44em;
-    background-color: rgba(3, 22, 38, 1);
-    font-size: 1rem;
-    color: #fff;
-}
-
-.campos_de_entrada{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-
-.nome{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.num_whats{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.email_contato{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.assunto{
-    width: 50em;
-    height: 18em;
-    border-radius: 0.5em;
-    overflow: hidden;
-}
-
-.enviar_formulario{
-    width: 8em;
-    height: 3em;
-    background-color:rgba(243, 70, 22, 1) ;
-    border: 0px;
-    border-radius: 5px;
-    margin-left: 40%;
-    color: #fff;
-}
-/*==================================================================*/
-/*==================================================================*/
-/*==================================================================*/
-/* ===>bloco de estilização da seção "contato": fim <===*/
-
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
@@ -542,15 +474,15 @@ h4{
 
 .link_whats{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background-color: rgba(243, 70, 22, 1);
     width: 8em;
-    height: 2.5em;
+    height: 3.5em;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-radius: 0.5em;
+    border-radius: 0.9em;
     text-decoration-line: none;
 }
 /*==================================================================*/
@@ -588,12 +520,12 @@ h4{
 /* ===>bloco de estilização da seção "rodape": inicio <===*/
 
 .rodape{
-    background-image: linear-gradient(rgba(16, 23, 25, 1),rgba(243, 70, 22, 1));
+    background-image: linear-gradient(rgba(16, 23, 25, 1    ),rgba(243, 70, 22, 1));
     margin-top: 5em;
     color:#fff;
     text-align: center;
     align-content: end;
-    height: 15em;
+    height: 9em;
 }
 footer{
     margin-bottom: 10px;
@@ -661,6 +593,7 @@ footer{
         border: 0px;
         border-radius: 0.5em;
         padding: 0.2em;
+        text-decoration: none;
     }
     
     .botao_meus_projetos{
@@ -684,6 +617,7 @@ footer{
         border: 0px;
         border-radius: 0.5em;
         padding: 0.2em;
+        text-decoration: none;
     }
     
     .botao_habilidades{
@@ -707,6 +641,7 @@ footer{
         border: 0px;
         border-radius: 0.5em;
         padding: 0.2em;
+        text-decoration: none;
     }
 
 
@@ -731,6 +666,7 @@ footer{
         border: 0px;
         border-radius: 0.5em;
         padding: 0.2em;
+        text-decoration: none;
     }
 
 
@@ -1009,67 +945,6 @@ footer{
         color: #fff;
     }
 
-    .form_contato{
-        margin-top: 2em;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: 36em;
-        background-color: #031626;
-        font-size: 0.9rem;
-        color: #fff;
-    }
-
-    .campos_de_entrada{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-    }
-
-
-    .nome{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .num_whats{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .email_contato{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .assunto{
-        width: 20em;
-        height: 9em;
-        border-radius: 0.5em;
-        overflow: hidden;
-    }
-
-    .enviar_formulario{
-        width: 5em;
-        height: 2em;
-        background-color:rgba(243, 70, 22, 1) ;
-        border: 0px;
-        border-radius: 5px;
-        margin-left: 40%;
-        color: #fff;
-    }
-
-/* ===>bloco mobile contato: fim <===*/
-/*==================================================================*/
-/*==================================================================*/
-
 
 /*==================================================================*/
 /*==================================================================*/
@@ -1092,15 +967,15 @@ footer{
 
     .link_whats{
         color: #fff;
-        font-size: 0.9em;
+        font-size: 1em;
         background-color: rgba(243, 70, 22, 1);
         width: 8em;
-        height: 2.5em;
+        height: 3em;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        border-radius: 0.5em;
+        border-radius: 0.9em;
         text-decoration-line: none;
     }
     .redes_sociais{
