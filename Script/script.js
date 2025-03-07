@@ -40,12 +40,8 @@ if (frontEnd && backEnd) {
 document.querySelector('.formulario_para_contato').addEventListener("submit",async (e) =>{
   e.preventDefault();
 
-  const FormData = new FormData(e.target);
+  const response = await fetch('/send-form', { method: 'POST', body: new FormData(e.target) });
 
-  const response = await fetch ('/api/handler', {
-    method: 'POST',
-    body: new URLSearchParams(FormData)
-  });
 
   const data = await response.json();
 
