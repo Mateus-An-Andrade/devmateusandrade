@@ -836,6 +836,13 @@ footer{
         .proj_001_img_princ_SB{
             width: 29em;
             height: 14em;
+            transition: none;
+        }
+
+        .proj_001_img_princ_SB:hover{
+            width: 29em;
+            height: 14em;
+            transition: none;
         }
 
         .proj_001_img_01_SB{
@@ -871,8 +878,6 @@ footer{
             width:90%;
             background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
             border-radius: 15px;
-            margin-left: 1.2em;
-            margin-right: 1.2em;
             animation: surgir_direita 3s forwards;
         }
     }
