@@ -251,11 +251,71 @@ body{
     text-align: center;
 }
 
-.apresentacao_dos_projetos{
-    margin-left: 4.5em;
-    margin-right: 4.5em;
-    font-size: 1.5rem;
-    margin-top: 2rem;
+.sistemas{
+
+  
+    .apresentacao_dos_projetos{
+        margin-left: 4.5em;
+        margin-right: 4.5em;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        gap: 1em;
+    }
+
+
+    .proj_001_img_princ_SB{
+        width: 27em;
+        height: 15em;
+        transition: all 0.3s ease;
+    }
+
+    .proj_001_img_princ_SB:hover{
+        width: 29em;
+        height: 17em;
+       
+    }
+
+    .proj_001_img_01_SB{
+        width: 25em;
+        height: 12.5em;
+        display: none;
+    }
+
+
+    .proj_001_img_02_SB{
+        width: 25em;
+        height: 12.5em;
+        display: none;
+    }
+
+    .proj_001_img_03_SB{
+        width: 25em;
+        height: 12.5em;
+        display: none;
+    }
+
+
+    .proj_001_img_04_SB{
+        width: 25em;
+        height: 12.5em;
+        display: none;
+    }
+
+    .barra_progresso_SB{
+        display: flex;
+        flex-direction: column;
+        height:6px;
+        width:100%;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
+        border-radius: 15px;
+        margin-left: 20px;
+        float: inline-start;
+        overflow: hidden;
+        animation: surgir_direita 3s forwards;
+    }
 }
 
 /*==================================================================*/
@@ -753,16 +813,68 @@ footer{
     }
 
     .titulo_projetos{
-        font-size: 1.1rem;
+        font-size: 2rem;
         text-align: center;
     }
 
-    .apresentacao_dos_projetos{
-        margin-left: 2em;
-        margin-right: 2em;
-        font-size: 1em;
-        margin-top: 2rem;
-        text-align: center;
+    .sistemas{
+
+    
+        .apresentacao_dos_projetos{
+            margin-left: 1.2em;
+            margin-right: 1.2em;
+            font-size: 1em;
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+
+        }
+
+
+        .proj_001_img_princ_SB{
+            width: 29em;
+            height: 14em;
+        }
+
+        .proj_001_img_01_SB{
+            width: 15em;
+            height: 10em;
+            display: none;
+        }
+
+
+        .proj_001_img_02_SB{
+            width: 15em;
+            height: 10em;
+            display: none;
+        }
+
+        .proj_001_img_03_SB{
+            width: 15em;
+            height: 10em;
+            display: none;
+        }
+
+
+        .proj_001_img_04_SB{
+            width: 15em;
+            height: 10em;
+            display: none;
+        }
+
+        .barra_progresso_SB{
+            display: flex;
+            flex-direction: column;
+            height:5px;
+            width:90%;
+            background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
+            border-radius: 15px;
+            margin-left: 1.2em;
+            margin-right: 1.2em;
+            animation: surgir_direita 3s forwards;
+        }
     }
 /* ===>bloco mobile projetos: fim <===*/
 /*==================================================================*/
@@ -811,7 +923,6 @@ footer{
         width:100%;
         background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)45%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
-        margin-left: 20px;
         float: inline-start;
         overflow: hidden;
         animation: surgir_direita 3s;
