@@ -6,6 +6,8 @@ if (frontEnd && backEnd) {
   const iconesFront = frontEnd.querySelectorAll('.icone_HTML, .icone_css, .icone_js');
   const barrasFront = frontEnd.querySelectorAll('.barra_carregamento_html, .barra_carregamento_css, .barra_carregamento_js');
 
+                                                                          //acima temos duas variaveis que estão pegando a classe aonde estão armazenadas os elementos front-end e back-end, verificando se esses elementos existem na página de fato para fazer a correta manipulação.
+
   const habilidadesBack = backEnd.querySelectorAll('.habilidade_em_python, .habilidade_em_mysql');
   const iconesBack = backEnd.querySelectorAll('.icone_python, .icone_mysql');
   const barrasBack = backEnd.querySelectorAll('.barra_carregamento_python, .barra_carregamento_mysql');
@@ -34,5 +36,7 @@ if (frontEnd && backEnd) {
 } else {
   console.log("Elementos não encontrados.");
 }
+
+                                                                          //se de fato os elementos existem então o algoritmo por meio da const "observer" vai:  1-captar o momento em que o usuário estiver na seção de habilidades da página; 2- vai disparar a animação tanto das habilidades front e back-end,fazendo tanto os icones quanto as barras de carregamento surgirem  e mostrar na tela; Toda via se não existir (impossivel), vai ser mostrado no console que os elementos não existem.
 
 
