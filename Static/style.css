@@ -569,6 +569,76 @@ transform: translateX(-100%);
     color: #fff;
 }
 
+
+
+h4{
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.3rem; 
+}
+
+.form_contato{
+    margin-top: 2em;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 44em;
+    background-color: rgba(3, 22, 38, 1);
+    font-size: 1rem;
+    color: #fff;
+}
+
+.campos_de_entrada{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+.nome{
+    width: 50em;
+    height: 4em;
+    border-radius: 0.5em;
+}
+
+.num_whats{
+    width: 50em;
+    height: 4em;
+    border-radius: 0.5em;
+}
+
+.email_contato{
+    width: 50em;
+    height: 4em;
+    border-radius: 0.5em;
+}
+
+.assunto{
+    width: 50em;
+    height: 18em;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.enviar_formulario{
+    width: 8em;
+    height: 3em;
+    background-color:rgba(243, 70, 22, 1) ;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 40%;
+    color: #fff;
+}
+/*==================================================================*/
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco de estilização da seção "contato": fim <===*/
+
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
