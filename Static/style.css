@@ -68,8 +68,8 @@ body{
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color:#f63c0e;; /* ou a cor que você quiser pro fundo do menu */
-    padding: 10px 0; /* se quiser ajustar o espaço interno */
+    background-color:#f63c0e;; 
+    padding: 10px 0; 
 }
 
 
@@ -758,6 +758,13 @@ footer{
 /*==================================================================*/
 /*==================================================================*/
     .cabecalho{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color:#f63c0e;; 
+        padding: 10px 0; 
         text-align: center;
     }
 /*==================================================================*/
@@ -776,6 +783,16 @@ footer{
         scroll-behavior: smooth;
     }
 
+
+    #about_me,
+    #academic_training,
+    #projects,
+    #skills,
+    #contact {
+        scroll-margin-top: 150px;
+    }
+
+
     .botao_sobre_mim{
         width: 5.5em;
         height: 2.2em;
@@ -789,6 +806,30 @@ footer{
 
     .botao_sobre_mim:hover{
         width: 5.5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+        text-decoration: none;
+    }
+
+
+    .botao_formacao_academica{
+        width: 5.5em;
+        height: 2.2em;
+        color: #fff;
+        background-color: rgba(3, 22, 38, 1);
+        font-size: 0.9em;
+        border: 0px;
+        border-radius: 0.5em;
+        padding: 0.2em;
+    }
+
+    .botao_formacao_academica:hover{
+         width: 5.5em;
         height: 2.2em;
         color: #fff;
         background-color: rgba(3, 22, 38, 1);
@@ -944,6 +985,41 @@ footer{
 /*==================================================================*/
 /*==================================================================*/
 
+
+
+/*==================================================================*/
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile de estilização da seção "educação": inicio <===*/
+
+.educacao_academica{
+    color: #fff;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 5em;
+}
+
+.titulo_formacao_academica{
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+.texto_educacao{
+    padding-left: 1.5em;
+    text-align:justify;
+    font-size: 1em;
+    overflow: auto;
+    animation: surgir_esquerda 2s;
+
+}
+
+
+
+
+/*==================================================================*/
+/*==================================================================*/
+/*==================================================================*/
+/* ===>bloco mobile de estilização da seção "educação": fim <===*/
 
 
 /*==================================================================*/
@@ -1203,6 +1279,69 @@ footer{
         text-align: center;
         color: #fff;
     }
+
+        .form_contato{
+        margin-top: 2em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: 36em;
+        background-color: #031626;
+        font-size: 0.9rem;
+        color: #fff;
+    }
+
+    .campos_de_entrada{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+
+    .nome{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .num_whats{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .email_contato{
+        width: 20em;
+        height: 3em;
+        border-radius: 0.5em;
+    }
+
+    .assunto{
+        width: 20em;
+        height: 9em;
+        border-radius: 0.5em;
+        overflow: hidden;
+    }
+
+    .enviar_formulario{
+        width: 5em;
+        height: 2em;
+        background-color:rgba(243, 70, 22, 1) ;
+        border: 0px;
+        border-radius: 5px;
+        margin-left: 40%;
+        color: #fff;
+    }
+
+/* ===>bloco mobile contato: fim <===*/
+/*==================================================================*/
+/*==================================================================*/
+
+
 
 
 /*==================================================================*/
