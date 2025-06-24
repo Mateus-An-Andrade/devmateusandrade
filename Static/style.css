@@ -3,6 +3,7 @@ html{
 }
 
 body{
+    padding-top: 100px;
     background-color: rgba(16, 23, 25, 1);
     margin: 0px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -61,8 +62,14 @@ body{
 /*==================================================================*/
 /* ===>bloco de estilização do cabeçalho e parte superior do código: inicio <===*/
 
-.cabecalho{
-    text-align: center;
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:#f63c0e;; /* ou a cor que você quiser pro fundo do menu */
+    padding: 10px 0; /* se quiser ajustar o espaço interno */
 }
 
 
@@ -74,9 +81,18 @@ body{
     gap: 2em;
     width:auto;
     padding: 1.2em;
-    background-color: rgba(243, 70, 22, 1);
+    background-color: rgb(243, 70, 22);
     animation: surgir_de_cima 2s;
 }
+
+#about_me,
+#academic_training,
+#projects,
+#skills,
+#contact {
+    scroll-margin-top: 150px;
+}
+
 
 .botao_sobre_mim{
     width: 8em;
