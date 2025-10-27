@@ -389,6 +389,20 @@ body{
         overflow: hidden;
         animation: surgir_direita 3s forwards;
     }
+
+
+    
+    .proj_002_img_princ_OT{
+        width: 27em;
+        height: 15em;
+        transition: all 0.3s ease;
+    }
+
+    .proj_002_img_princ_OT:hover{
+        width: 29em;
+        height: 17em;
+       
+    }
 }
 
 /*==================================================================*/
@@ -1044,8 +1058,8 @@ footer{
             margin-right: 1.2em;
             font-size: 1em;
             margin-top: 2rem;
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 50% 50%;
             align-items: center;
             text-align: justify;
 
