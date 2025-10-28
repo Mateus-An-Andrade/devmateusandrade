@@ -332,7 +332,8 @@ body{
         margin-right: 4.5em;
         font-size: 1.5rem;
         margin-top: 2rem;
-        display: flex;
+        display: grid;
+        grid-template-columns: 100%;
         align-items: center;
         text-align: justify;
         gap: 1em;
@@ -340,14 +341,16 @@ body{
 
 
     .proj_001_img_princ_SB{
-        width: 27em;
-        height: 15em;
+        width:35em;
+        height: 18em;
         transition: all 0.3s ease;
+        margin-left: 15%;
+        margin-left: 15%;
     }
 
     .proj_001_img_princ_SB:hover{
-        width: 29em;
-        height: 17em;
+        width:35.2em;
+        height: 18.2em;
        
     }
 
@@ -377,12 +380,27 @@ body{
         display: none;
     }
 
-    .barra_progresso_SB{
+    
+    .proj_002_img_princ_OP{
+        width:35em;
+        height: 18em;
+        transition: all 0.3s ease;
+        margin-left: 15%;
+        margin-left: 15%;
+    }
+
+    .proj_002_img_princ_OP:hover{
+        width:35.2em;
+        height: 18.2em;
+       
+    }
+
+    .barra_progresso_OP{
         display: flex;
         flex-direction: column;
         height:6px;
         width:100%;
-        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)50%,0%, rgba(255, 255, 255,1)) ;
+        background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)25%,0%, rgba(255, 255, 255,1)) ;
         border-radius: 15px;
         margin-left: 20px;
         float: inline-start;
