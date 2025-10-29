@@ -344,13 +344,15 @@ body{
         width:35em;
         height: 18em;
         transition: all 0.3s ease;
-        margin-left: 15%;
-        margin-left: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     .proj_001_img_princ_SB:hover{
         width:35.2em;
         height: 18.2em;
+        margin-left: 20%;
+        margin-right: 20%;
        
     }
 
@@ -406,6 +408,24 @@ body{
         float: inline-start;
         overflow: hidden;
         animation: surgir_direita 3s forwards;
+    }
+
+
+    
+    .proj_002_img_princ_OT{
+        width: 27em;
+        height: 15em;
+        margin-left: 20%;
+        margin-right: 20%;
+        transition: all 0.3s ease;
+    }
+
+    .proj_002_img_princ_OT:hover{
+        width: 29em;
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 17em;
+       
     }
 }
 
@@ -1062,8 +1082,8 @@ footer{
             margin-right: 1.2em;
             font-size: 1em;
             margin-top: 2rem;
-            display: flex;
-            flex-direction: column;
+            display: grid;
+            grid-template-columns: 50% 50%;
             align-items: center;
             text-align: justify;
 

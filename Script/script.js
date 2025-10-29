@@ -41,7 +41,7 @@ if (frontEnd && backEnd) {
 
 
                                                                           
-//script, de solicitação do front-end para os dados do formulário
+///script, de solicitação do front-end para os dados do formulário
 document.querySelector('.formulario_para_contato').addEventListener("submit",async (e) =>{
   e.preventDefault();
 
@@ -56,4 +56,3 @@ document.querySelector('.formulario_para_contato').addEventListener("submit",asy
   }
 
 });
-
