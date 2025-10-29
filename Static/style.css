@@ -1067,6 +1067,8 @@ footer{
     .secao_projetos{
         margin-top: 5em;
         color: #fff;
+         margin-left: 15%;
+         margin-right: 15%;
     }
 
     .titulo_projetos{
@@ -1078,8 +1080,8 @@ footer{
 
     
         .apresentacao_dos_projetos{
-            margin-left: 1.2em;
-            margin-right: 1.2em;
+            margin-left: 15%;
+            margin-right: 15%;
             font-size: 1em;
             margin-top: 2rem;
             display: grid;
@@ -1089,15 +1091,20 @@ footer{
 
         }
 
+        .project_001{
+            display: grid;
+            justify-items: center;
+
+        }
 
         .proj_001_img_princ_SB{
-            width: 29em;
+            width: 25em;
             height: 14em;
             transition: none;
         }
 
         .proj_001_img_princ_SB:hover{
-            width: 29em;
+            width: 25em;
             height: 14em;
             transition: none;
         }
@@ -1137,6 +1144,38 @@ footer{
             border-radius: 15px;
             animation: surgir_direita 3s forwards;
         }
+
+           .proj_002_img_princ_OP{
+            width: 25em;
+            height: 14em;
+            transition: all 0.3s ease;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+            .proj_002_img_princ_OP:hover{
+            width: 25em;
+            height: 14em;
+            transition: all 0.3s ease;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+
+
+         .barra_progresso_OP{
+            display: flex;
+            flex-direction: column;
+            height:6px;
+            width:100%;
+            background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)25%,0%, rgba(255, 255, 255,1)) ;
+            border-radius: 15px;
+            margin-left: 20px;
+            float: inline-start;
+            overflow: hidden;
+            animation: surgir_direita 3s forwards;
+        }
+
+
     }
 /* ===>bloco mobile projetos: fim <===*/
 /*==================================================================*/
