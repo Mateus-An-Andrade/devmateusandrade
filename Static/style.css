@@ -358,31 +358,75 @@ body{
 
    
 
-    .projeto_001{
-        display: grid;
+.projeto_001{
+        display: none;
         margin-left: 1em;
         margin-right: 1em;
         width: 100vw;
         font-size: 1.3rem;
 
-        img{
-            width: 90vw;
-            height: 80vh;
-            margin-left: 1em;
-            margin-right:  1em;
-        }
 
-        p,ul,li{
-            margin-left: 2em;
-            margin-right: 2em;
-        }
+        .container_project_001{
+        
+            display: grid;
 
-       .barra_progresso_SB {
-            width: 70vw;
-            height: 1vh;
-            border-radius: 5em;
-            background-image: linear-gradient(90deg, rgba(243, 70, 22, 1) 25%, rgb(255, 255, 255) 0%);
+            img{
+                width:45vw;
+                height: 50vh;
+                margin-left: 25vw;
+                margin-right:  25vw;
+            }
+
+            p,ul,li{
+                margin-left: 2em;
+                margin-right: 2em;
+            }
+
+        .barra_progresso_SB {
+                width: 70vw;
+                height: 1vh;
+                border-radius: 5em;
+                background-image: linear-gradient(90deg, rgba(243, 70, 22, 1) 25%, rgb(255, 255, 255) 0%);
+            }
+
         }
+        
+    }
+
+
+.projeto_002{
+        display: none;
+        margin-left: 1em;
+        margin-right: 1em;
+        width: 100vw;
+        font-size: 1.3rem;
+
+
+        .container_project_002{
+        
+            display: grid;
+
+            img{
+                width:45vw;
+                height: 50vh;
+                margin-left: 25vw;
+                margin-right:  25vw;
+            }
+
+            p,ul,li{
+                margin-left: 2em;
+                margin-right: 2em;
+            }
+
+        .barra_progresso_SB {
+                width: 70vw;
+                height: 1vh;
+                border-radius: 5em;
+                background-image: linear-gradient(90deg, rgba(243, 70, 22, 1) 100%, rgb(255, 255, 255) 0%);
+            }
+
+        }
+        
     }
 
 /*==================================================================*/
@@ -492,7 +536,7 @@ body{
     flex-direction: column;
     height:6px;
     width:100%;
-    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)10%,0%, rgba(255, 255, 255,1)) ;
+    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
     margin-left: 20px;
     float: inline-start;
@@ -588,62 +632,7 @@ h4{
     font-size: 1.3rem; 
 }
 
-.form_contato{
-    margin-top: 2em;
-    margin-left: 4.5em;
-    margin-right: 4.5em;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    height: 44em;
-    background-color: rgba(3, 22, 38, 1);
-    font-size: 1rem;
-    color: #fff;
-}
 
-.campos_de_entrada{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-
-.nome{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.num_whats{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.email_contato{
-    width: 50em;
-    height: 4em;
-    border-radius: 0.5em;
-}
-
-.assunto{
-    width: 50em;
-    height: 18em;
-    border-radius: 0.5em;
-    overflow: hidden;
-}
-
-.enviar_formulario{
-    width: 8em;
-    height: 3em;
-    background-color:rgba(243, 70, 22, 1) ;
-    border: 0px;
-    border-radius: 5px;
-    margin-left: 40%;
-    color: #fff;
-}
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
@@ -717,12 +706,13 @@ h4{
 /* ===>bloco de estilização da seção "rodape": inicio <===*/
 
 .rodape{
-    background-image: linear-gradient(rgba(16, 23, 25, 1    ),rgba(243, 70, 22, 1));
+    background-image: linear-gradient(rgba(16, 23, 25, 1),rgba(243, 70, 22, 1));
+    width:100vw;
     margin-top: 5em;
     color:#fff;
     text-align: center;
     align-content: end;
-    height: 9em;
+    height: 4em;
 }
 footer{
     margin-bottom: 10px;

@@ -40,19 +40,20 @@ if (frontEnd && backEnd) {
                                                                           //se de fato os elementos existem então o algoritmo por meio da const "observer" vai:  1-captar o momento em que o usuário estiver na seção de habilidades da página; 2- vai disparar a animação tanto das habilidades front e back-end,fazendo tanto os icones quanto as barras de carregamento surgirem  e mostrar na tela; Toda via se não existir (impossivel), vai ser mostrado no console que os elementos não existem.
 
 
+
+
+
                                                                           
 ///script, de solicitação do front-end para os dados do formulário
-document.querySelector('.formulario_para_contato').addEventListener("submit",async (e) =>{
-  e.preventDefault();
+document.addEventListener("DOMContentLoaded", function (){
+let show_pessoal_projects = document.getElementById("personal_projects_button")
+ let project_001 = document.querySelector(".projeto_001") 
+ let project_002 = document.querySelector(".projeto_002") 
+ show_pessoal_projects.addEventListener("click", function(){
+  project_001.style.display = "block"
+  project_002.style.display = "grid"
 
-  const response = await fetch('/send-form', { method: 'POST', body: new URLSearchParams(FormData) });
-  
+ })
+}) 
 
-  const data = await response.json();
 
-  if(data.message){
-    alert(data.message);
-
-  }
-
-});
