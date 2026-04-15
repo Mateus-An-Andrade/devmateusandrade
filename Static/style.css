@@ -76,11 +76,11 @@ body{
 .botoes_portifolio{
     display: flex;
     justify-content: center;
-    height: 4em;
+    height: auto;
     align-content: center;
     gap: 2em;
     width:auto;
-    padding: 1.2em;
+    padding: 0.5em;
     background-color: rgb(243, 70, 22);
     animation: surgir_de_cima 2s;
 }
@@ -95,21 +95,23 @@ body{
 
 
 .botao_sobre_mim{
-    width: 8em;
-    height: 2.3em;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1rem;
     color: #fff;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
     transition: all 0.3s ease;
 }
 
 .botao_sobre_mim:hover{
-    width: 8.2em;
-    height: 2.5em;
+    width: auto;
+    height: auto;
+    padding: 0.6em;
+    font-size: 1.1rem;
     margin: 0.1rem;
-    font-size: 1.5em;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
     text-decoration-line:underline;
@@ -117,21 +119,22 @@ body{
 }
 
 .botao_meus_projetos{
-    width: 8em;
-    height: 2.3em;
-    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1rem;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.5em;
+    color: #fff;
     border: 0px;
     border-radius: 0.5em;
     transition: all 0.3s ease;
 }
 
 .botao_meus_projetos:hover{
-    width: 8.2em;
-    height: 2.5em;
-    margin: 0.1rem;
-    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    padding: 0.6em;
+    font-size: 1.1rem;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
     text-decoration-line:underline;
@@ -139,42 +142,44 @@ body{
 }
 
 .botao_formacao_academica{
-    width: 8em;
-    height: 2.3em;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1rem;
     color: #fff;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
     transition: all 0.3s ease;
 }
 
 .botao_formacao_academica:hover{
-    width: 8.2em;
-    height: 2.5em;
-    margin: 0.1rem;
-    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    padding: 0.6em;
+    font-size: 1.1rem;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
     text-decoration-line:underline;
 }
 
 .botao_habilidades{
-    width: 8em;
-    height: 2.3em;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1rem;
     color: #fff;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.5em;
     border: 0px;
     border-radius: 0.5em;
     transition: all 0.3s ease;
 }
 
 .botao_habilidades:hover{
-    width: 8.2em;
-    height: 2.5em;
-    margin: 0.1rem;
-    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    padding: 0.6em;
+    font-size: 1.1rem;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
     text-decoration-line:underline;
@@ -182,21 +187,22 @@ body{
 }
 
 .botao_contato{
-    width: 8em;
-    height: 2.3em;
-    color: #fff;
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    font-size: 1rem;
     background-color: rgba(3, 22, 38, 1);
-    font-size: 1.5em;
     border: 0px;
+    color: #fff;
     border-radius: 0.5em;
     transition: all 0.3s ease;
 }
 
 .botao_contato:hover{
-    width: 8.2em;
-    height: 2.5em;
-    margin: 0.1rem;
-    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    padding: 0.6em;
+    font-size: 1.1rem;
     background-color: #ffffff;
     color: rgba(243, 70, 22, 1);
     text-decoration-line:underline;
@@ -327,7 +333,7 @@ body{
 .categorias{
     width: 100vw;
     height: auto;
-    display: grid;
+    display: none;
     justify-items: center;
     justify-content: center;
     grid-template-columns: 40% 40%;
@@ -359,20 +365,19 @@ body{
    
 
 .projeto_001{
-        display: none;
-        margin-left: 1em;
-        margin-right: 1em;
-        width: 100vw;
-        font-size: 1.3rem;
+        display: block;
+        width: auto;
+        font-size: 1.2rem;
+
 
 
         .container_project_001{
-        
+            width: auto;
             display: grid;
 
             img{
-                width:45vw;
-                height: 50vh;
+                width:auto;
+                max-height: 50vh;
                 margin-left: 25vw;
                 margin-right:  25vw;
             }
@@ -395,10 +400,10 @@ body{
 
 
 .projeto_002{
-        display: none;
+        display: block;
         margin-left: 1em;
         margin-right: 1em;
-        width: 100vw;
+        width: auto;
         font-size: 1.3rem;
 
 
@@ -407,8 +412,8 @@ body{
             display: grid;
 
             img{
-                width:45vw;
-                height: 50vh;
+                width:auto;
+                max-height: 50vh;
                 margin-left: 25vw;
                 margin-right:  25vw;
             }
@@ -424,7 +429,8 @@ body{
                 border-radius: 5em;
                 background-image: linear-gradient(90deg, rgba(243, 70, 22, 1) 100%, rgb(255, 255, 255) 0%);
             }
-
+        
+            .demo_projeto{color: #fff;}
         }
         
     }
@@ -468,8 +474,8 @@ body{
 }
 
 .icone_HTML{
-    width: 5em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s forwards;
 }
@@ -498,8 +504,8 @@ body{
 
 .icone_css{
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-    width: 5em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     animation: surgir_esquerda 2s;
 }
 
@@ -508,7 +514,7 @@ body{
     flex-direction: column;
     height:6px;
     width:100%;
-    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)20%,0%, rgba(255, 255, 255,1)) ;
+    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)40%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
     margin-left: 20px;
     float: inline-start;
@@ -525,8 +531,8 @@ body{
 
 .icone_js{
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
-    width: 5em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     animation: surgir_esquerda 2s;
 }
 
@@ -536,7 +542,7 @@ body{
     flex-direction: column;
     height:6px;
     width:100%;
-    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
+    background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)35%,0%, rgba(255, 255, 255,1)) ;
     border-radius: 15px;
     margin-left: 20px;
     float: inline-start;
@@ -559,8 +565,8 @@ transform: translateX(-100%);
 }
 
 .icone_python{
-    width: 5em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s;
 }
@@ -586,8 +592,8 @@ transform: translateX(-100%);
 }
 
 .icone_mysql{
-    width: 5em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     background-image: linear-gradient(rgba(3, 22, 38, 0.1),rgba(243, 70, 22, 1));
     animation: surgir_esquerda 2s;
 }
@@ -660,10 +666,11 @@ h4{
 
 .link_whats{
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     background-color: rgba(243, 70, 22, 1);
-    width: 8em;
-    height: 3.5em;
+    width: 5em;
+    height: 2em;
+    padding: 0.5em;
     text-align: center;
     display: flex;
     align-items: center;
@@ -689,15 +696,56 @@ h4{
     color: #fff;
 }
 
+.link_redes{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 1em;
+}
+
+.github{
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(243, 70, 22, 1);
+    width: 5em;
+    height: 2em;
+    padding: 0.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid;
+    border-radius: 0.9em;
+    text-decoration-line: none;
+    cursor:pointer;
+}
+
+.linkedin{
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(243, 70, 22, 1);
+    width: 5em;
+    height: 2em;
+    padding: 0.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px solid;
+    border-radius: 0.9em;
+    text-decoration-line: none;
+    cursor:pointer;
+}
+
 
 .link1{
     color: #fff;
-    font-size: 1.3rem;
+    text-decoration: none;
 }
 
 .link2{
     color: #fff;
-    font-size: 1.3rem;
+    text-decoration: none;
 }
 
 /*==================================================================*/
@@ -707,7 +755,7 @@ h4{
 
 .rodape{
     background-image: linear-gradient(rgba(16, 23, 25, 1),rgba(243, 70, 22, 1));
-    width:100vw;
+    width:auto;
     margin-top: 5em;
     color:#fff;
     text-align: center;
