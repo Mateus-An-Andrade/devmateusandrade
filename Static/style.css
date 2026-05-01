@@ -1002,13 +1002,13 @@ footer{
 }
 
 .boas_vindas{
-    font-size: 1em;
+    font-size: 0.9em;
     animation: surgir_de_cima 2s linear 0s;
     margin-left: 25%;
 }
         
 .meu_nome{
-    font-size: 1.5em;
+    font-size: 1em;
     animation: surgir_de_cima 3s linear 0s;
     margin-left: 2em;
     text-align: center;
@@ -1021,7 +1021,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
@@ -1081,8 +1081,7 @@ footer{
         border-radius: 4em;
         animation:surgir_direita 3s;
         display:grid;
-        margin-left: 0.4em;
-        margin-top: 0.8em;
+        margin: 0.8em 1em;
     }
 /* ===>bloco mobile sobre mim: fim <===*/
 /*==================================================================*/
