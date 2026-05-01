@@ -983,24 +983,53 @@ footer{
 /*==================================================================*/
 /*==================================================================*/
 /* ===>bloco mobile identificação: inicio <===*/
-    .identificacao{
-        margin-top: 1.2em;
-        text-align: center;
-        color: #fff;
-    }
-    
-    .boas_vindas{
-        font-size: 1.1em;
-    }
-            
-    .meu_nome{
-        font-size: 2em;
-        padding: 2px;
-    }
-            
-    .meu_trabalho{
-        font-size: 1.1em;
-    }
+
+.identificacao{
+    position: relative;
+    width: 100%;
+    height: auto; /* Defina uma altura para ter espaço */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: #fff;
+}
+
+.conteiner_identificação{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.boas_vindas{
+    font-size: 1em;
+    animation: surgir_de_cima 2s linear 0s;
+    margin-left: 25%;
+}
+        
+.meu_nome{
+    font-size: 1.5em;
+    animation: surgir_de_cima 3s linear 0s;
+    margin-left: 2em;
+    text-align: center;
+}
+         
+.meu_trabalho{
+    max-width: 50vw;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    gap: 2em;
+    margin-top: 20%;
+    margin-left: 15%;
+    animation: surgir_esquerda 3s linear 0s;
+}
 /* ===>bloco mobile identificação: fim <===*/
 /*==================================================================*/
 /*==================================================================*/
@@ -1010,10 +1039,22 @@ footer{
 /*==================================================================*/
 /* ===>bloco mobile sobre mim: inicio <===*/
     .sobre_mim{
+        text-align: center;
         color: #fff;
-        margin-left: 1.2em;
-        margin-right: 1.5em;
         margin-top: 5em;
+        animation: surgir_esquerda 2s;
+        background-color: #344858;
+        box-shadow: 10px 10px 5px rgb(243, 70, 22);
+        width: auto;
+        padding: 0.2em;
+        height: auto;
+        border-radius: 2em;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 2% 10%;
+        gap: 1rem;
         
     }  
     
@@ -1037,7 +1078,7 @@ footer{
     .minha_imagem{
         width: 7em;
         height: 8.5em;
-        border-radius: 1em;
+        border-radius: 4em;
         animation:surgir_direita 3s;
         display:grid;
         margin-left: 0.4em;
