@@ -27,7 +27,7 @@ body{
 @keyframes surgir_esquerda {
     from{
         opacity: 0;
-        transform: translateX(-4.5em);
+        transform: translateX(-100%);
     }
 
     to{
@@ -41,7 +41,7 @@ body{
 @keyframes surgir_direita {
     from{
         opacity: 0;
-        transform: translatex(4.5em);
+        transform: translatex(100%);
     }
 
     to{
@@ -50,6 +50,9 @@ body{
     }
     
 }
+
+
+
 
 /*==================================================================*/
 /*==================================================================*/
@@ -210,25 +213,51 @@ body{
 }
 
 .identificacao{
-    margin-top: 1.2em;
-    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto; /* Defina uma altura para ter espaço */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2em;
     color: #fff;
+}
+
+.conteiner_identificação{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
 
 .boas_vindas{
     font-size: 2em;
     animation: surgir_de_cima 2s linear 0s;
+    margin-left: 30%;
 }
         
 .meu_nome{
-    font-size: 4em;
-    animation: surgir_de_cima 3s linear 0s
+    font-size: 3em;
+    animation: surgir_de_cima 3s linear 0s;
+    margin-left: 2em;
+    text-align: center;
 }
-        
+         
 .meu_trabalho{
-    font-size: 2em;
-    animation: surgir_de_cima 4s linear 0s;
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    gap: 2.5em;
+    margin-top: 10%;
+    margin-left: 18%;
+    animation: surgir_esquerda 3s linear 0s;
 }
+
 /*==================================================================*/
 /*==================================================================*/
 /*==================================================================*/
@@ -266,12 +295,15 @@ body{
 
 
 .minha_imagem{
-    width: 12em;
-    height: 15em;
+    width: 15em;
+    height: 20em;
     margin-left: 3em;
     float: inline-end;
-    border-radius: 4em;
-    animation:surgir_direita 3s;
+    border-radius: 10em;
+    border-bottom: 10px solid;
+    border-right: 05px solid;
+    background-color: rgb(243, 70, 22);
+    animation: surgir_direita 4s;
 }
 /*==================================================================*/
 /*==================================================================*/
