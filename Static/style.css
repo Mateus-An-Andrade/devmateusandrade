@@ -1051,156 +1051,124 @@ footer{
 
 /*==================================================================*/
 /*==================================================================*/
-/*==================================================================*/
-/* ===>bloco mobile de estilização da seção "educação": inicio <===*/
-
-.educacao_academica{
-    color: #fff;
-    margin-left: 1em;
-    margin-right: 1em;
+/* ===>bloco mobile projetos: inicio <===*/
+.secao_projetos{
     margin-top: 5em;
+    color: #fff;
 }
 
-.titulo_formacao_academica{
-    text-align: justify;
-    font-size: 1.1rem;
+.titulo_projetos{
+    font-size: 2rem;
+    text-align: center;
 }
 
-.texto_educacao{
-    padding-left: 1.5em;
-    text-align:justify;
-    font-size: 1em;
-    overflow: auto;
+.conteiner_projetos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+   
+
+.projeto_001{
+display: block;
+    width: 80%;
+    height: 80%;
+    font-size: 1.2rem;
+    border-radius: 2em;
+    background-color: #344858;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 10px 10px 2em rgb(243, 70, 22);
     animation: surgir_esquerda 2s;
 
-}
 
 
+    .container_project_002{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
 
 
-/*==================================================================*/
-/*==================================================================*/
-/*==================================================================*/
-/* ===>bloco mobile de estilização da seção "educação": fim <===*/
+        img{
+            border-radius: 1em;
+            width:auto;
+            max-height:40vh
+        }
 
+            p,ul,li{
+                margin:0.1em 0em;
 
-/*==================================================================*/
-/*==================================================================*/
-/* ===>bloco mobile projetos: inicio <===*/
-
-    .secao_projetos{
-        margin-top: 5em;
-        color: #fff;
-         margin-left: 15%;
-         margin-right: 15%;
+            }
+        
+            .demo_projeto{
+                width: auto;
+                height: auto;
+                padding: 0.5em;
+                border-radius: 2em;
+                margin: 0em 4em;
+                color: #fff;
+                background-color: #f63c0e;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+    
     }
 
-    .titulo_projetos{
-        font-size: 2rem;
-        text-align: center;
+
+.projeto_002{
+    display: block;
+    width: 80%;
+    height: 80%;
+    font-size: 1.2rem;
+    border-radius: 2em;
+    background-color: #344858;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: -10px 10px 2em rgb(243, 70, 22);
+    animation: surgir_esquerda 2s;
+
+
+
+    .container_project_002{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+        img{
+            border-radius: 1em;
+            width:auto;
+            max-height:40vh
+        }
+
+            p,ul,li{
+                margin:0.5em 0.5em;
+
+            }
+        
+            .demo_projeto{
+                width: auto;
+                height: auto;
+                padding: 0.2em;
+                border-radius: 2em;
+                margin: 0em 4em;
+                color: #fff;
+                background-color: #f63c0e;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+        
     }
 
-    .sistemas{
 
     
-        .apresentacao_dos_projetos{
-            margin-left: 15%;
-            margin-right: 15%;
-            font-size: 1em;
-            margin-top: 2rem;
-            display: grid;
-            grid-template-columns: 50% 50%;
-            align-items: center;
-            text-align: justify;
-
-        }
-
-        .project_001{
-            display: grid;
-            justify-items: center;
-
-        }
-
-        .proj_001_img_princ_SB{
-            width: 25em;
-            height: 14em;
-            transition: none;
-        }
-
-        .proj_001_img_princ_SB:hover{
-            width: 25em;
-            height: 14em;
-            transition: none;
-        }
-
-        .proj_001_img_01_SB{
-            width: 15em;
-            height: 10em;
-            display: none;
-        }
-
-
-        .proj_001_img_02_SB{
-            width: 15em;
-            height: 10em;
-            display: none;
-        }
-
-        .proj_001_img_03_SB{
-            width: 15em;
-            height: 10em;
-            display: none;
-        }
-
-
-        .proj_001_img_04_SB{
-            width: 15em;
-            height: 10em;
-            display: none;
-        }
-
-        .barra_progresso_SB{
-            display: flex;
-            flex-direction: column;
-            height:5px;
-            width:90%;
-            background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)15%,0%, rgba(255, 255, 255,1)) ;
-            border-radius: 15px;
-            animation: surgir_direita 3s forwards;
-        }
-
-           .proj_002_img_princ_OP{
-            width: 25em;
-            height: 14em;
-            transition: all 0.3s ease;
-            margin-left: 15%;
-            margin-right: 15%;
-        }
-
-            .proj_002_img_princ_OP:hover{
-            width: 25em;
-            height: 14em;
-            transition: all 0.3s ease;
-            margin-left: 15%;
-            margin-right: 15%;
-        }
-
-
-         .barra_progresso_OP{
-            display: flex;
-            flex-direction: column;
-            height:6px;
-            width:100%;
-            background-image: linear-gradient(90deg, rgba(243, 70, 22, 1)25%,0%, rgba(255, 255, 255,1)) ;
-            border-radius: 15px;
-            margin-left: 20px;
-            float: inline-start;
-            overflow: hidden;
-            animation: surgir_direita 3s forwards;
-        }
-
-
-    }
 /* ===>bloco mobile projetos: fim <===*/
 /*==================================================================*/
 /*==================================================================*/
@@ -1370,83 +1338,6 @@ footer{
 
 /*==================================================================*/
 /*==================================================================*/
-/* ===>bloco mobile contato: inicio <===*/
-
-    .pedido_de_mensagem{
-        font-size: 1rem;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-        margin-top: 2em;
-        text-align: center;
-        color: #fff;
-    }
-
-        .form_contato{
-        margin-top: 2em;
-        margin-left: 1.5em;
-        margin-right: 1.5em;
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: 36em;
-        background-color: #031626;
-        font-size: 0.9rem;
-        color: #fff;
-    }
-
-    .campos_de_entrada{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-    }
-
-
-    .nome{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .num_whats{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .email_contato{
-        width: 20em;
-        height: 3em;
-        border-radius: 0.5em;
-    }
-
-    .assunto{
-        width: 20em;
-        height: 9em;
-        border-radius: 0.5em;
-        overflow: hidden;
-    }
-
-    .enviar_formulario{
-        width: 5em;
-        height: 2em;
-        background-color:rgba(243, 70, 22, 1) ;
-        border: 0px;
-        border-radius: 5px;
-        margin-left: 40%;
-        color: #fff;
-    }
-
-/* ===>bloco mobile contato: fim <===*/
-/*==================================================================*/
-/*==================================================================*/
-
-
-
-
-/*==================================================================*/
-/*==================================================================*/
 /* ===>bloco mobile "links": inicio <===*/
 
     .whatsapp{
@@ -1468,8 +1359,8 @@ footer{
         color: #fff;
         font-size: 1em;
         background-color: rgba(243, 70, 22, 1);
-        width: 8em;
-        height: 3em;
+        width: 6em;
+        height: 1em;
         text-align: center;
         display: flex;
         align-items: center;
