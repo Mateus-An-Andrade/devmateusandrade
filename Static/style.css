@@ -219,7 +219,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 2em;
+
     color: #fff;
 }
 
@@ -269,22 +269,32 @@ body{
 /*==================================================================*/
 /* ===>bloco de estilização da seção "sobre mim": inicio <===*/
 .sobre_mim{
+    text-align: center;
     color: #fff;
-    margin-left: 4.5em;
-    margin-right: 4.5em;
     margin-top: 5em;
     animation: surgir_esquerda 2s;
+    background-color: #344858;
+    box-shadow: 10px 10px 5px rgb(243, 70, 22);
+    width: 80%;
+    height: 50vh;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 10%;
+    gap: 2em;
 }  
 
 .titulo_sobre_mim{
-    text-align: justify;
+    text-align: center;
     font-size: 2rem;
 }
 
 .texto_sobre_mim{
-    padding-left: 1.6em;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    margin: 0em 3em;
     overflow: auto;
     animation: surgir_esquerda 2s;
 }
@@ -295,14 +305,15 @@ body{
 
 
 .minha_imagem{
-    width: 15em;
-    height: 20em;
+    width: 12em;
+    height: 15em;
     margin-left: 3em;
     float: inline-end;
-    border-radius: 10em;
+    border-radius: 6em;
     border-bottom: 10px solid;
     border-right: 05px solid;
     background-color: rgb(243, 70, 22);
+    box-shadow: 10px 5px 2em rgb(243, 70, 22);
     animation: surgir_direita 4s;
 }
 /*==================================================================*/
